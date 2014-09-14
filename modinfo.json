@@ -3,10 +3,10 @@
   "build": "71937",
   "category": ["cheat", "galactic-war", "ui"],
   "context": "client",
-  "date": "2014/09/13",
+  "date": "2014/09/14",
   "description": "Displays the tech available in the Galactic War system detail.",
   "display_name": "Section of Research And Exploration",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/rel-section-of-research-and-exploration.64227/",
   "identifier": "com.wondible.pa.section_of_research_and_exploration",
   "priority": 100,
   "scenes": {
@@ -16,6 +16,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.1.0"
+  "version": "1.0.0"
 }
 
