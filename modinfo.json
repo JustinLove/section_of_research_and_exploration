@@ -1,0 +1,21 @@
+{
+  "author": "wondible",
+  "build": "71937",
+  "category": ["cheat", "galactic-war", "ui"],
+  "context": "client",
+  "date": "2014/09/13",
+  "description": "Displays the tech available in the Galactic War system detail.",
+  "display_name": "Section of Research And Exploration",
+  "forum": null,
+  "identifier": "com.wondible.pa.section_of_research_and_exploration",
+  "priority": 100,
+  "scenes": {
+    "gw_play": [
+      "coui://ui/mods/section_of_research_and_exploration/section_of_research_and_exploration.css",
+      "coui://ui/mods/section_of_research_and_exploration/section_of_research_and_exploration.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+

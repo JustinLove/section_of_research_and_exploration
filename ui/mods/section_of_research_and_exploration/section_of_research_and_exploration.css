@@ -1,0 +1,19 @@
+.section_of_research_and_exploration {
+  color: #88DBFF;
+}
+
+.section_of_research_and_exploration h3 {
+  color: white;
+}
+
+.section_of_research_and_exploration img {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  margin-top: -10px;
+}
+
+.section_of_research_and_exploration .tech-name {
+  margin-left: 40px;
+}
+
