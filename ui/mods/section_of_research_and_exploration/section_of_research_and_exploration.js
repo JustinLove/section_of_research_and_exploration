@@ -1,6 +1,6 @@
 (function() {
   var empty = {
-    summarize: function() {},
+    summarize: function() {return ''},
     icon: function() {}
   }
   model.research_and_exploration = ko.observable(empty)
