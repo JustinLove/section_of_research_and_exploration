@@ -3,14 +3,14 @@
     summarize: function() {return ''},
     icon: function() {}
   }
-  model.research_and_exploration = ko.observable(empty)
+  model.research_and_exploration = ko.observableArray([])
   ko.computed(function() {
-    var card = model.selection.system().star.card()
-    if (card) {
-      new CardViewModel(card).card.then(model.research_and_exploration)
-    } else {
-      model.research_and_exploration(empty)
-    }
+    model.research_and_exploration([])
+    model.selection.system().star.cardList().forEach(function(card) {
+      new CardViewModel(card).card.then(function(c) {
+        model.research_and_exploration.push(c)
+      })
+    })
   })
 
   url = 'coui://ui/mods/section_of_research_and_exploration/section_of_research_and_exploration.html'
